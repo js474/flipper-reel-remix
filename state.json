@@ -1,0 +1,77 @@
+{
+ "processed": [
+  {
+   "shortcode": "Ddo6J1QDAJN",
+   "title": "Günstige Loft-Türen von der Stange",
+   "versions": {
+    "V1": "https://static.metricool.com/planner/202610/2740762-file-13163361442993014842.mp4"
+   },
+   "trial_day": "2026-10-10",
+   "repost": "2026-10-17",
+   "run": "2026-10"
+  },
+  {
+   "shortcode": "DdwogfbjX7D",
+   "title": "Das wird es bei mir nie geben",
+   "versions": {
+    "V1": "https://static.metricool.com/planner/202610/2740762-file-6585103776009268790.mp4"
+   },
+   "trial_day": "2026-10-11",
+   "repost": "2026-10-21",
+   "run": "2026-10"
+  },
+  {
+   "shortcode": "Dd4JXUDkYQ6",
+   "title": "Übertreibs bitte nicht",
+   "versions": {
+    "V1": "https://static.metricool.com/planner/202610/2740762-file-16117388925060976086.mp4"
+   },
+   "trial_day": "2026-10-12",
+   "repost": "2026-10-26",
+   "run": "2026-10"
+  },
+  {
+   "shortcode": "Dd4W8zJG1Ka",
+   "title": "Elektrik: du brauchst 3 Adern",
+   "versions": {
+    "V1": "https://static.metricool.com/planner/202610/2740762-file-15177694233154236371.mp4"
+   },
+   "trial_day": "2026-10-13",
+   "repost": "2026-10-30",
+   "run": "2026-10"
+  },
+  {
+   "shortcode": "DduDwJSAuBK",
+   "title": "Sockelleisten mit Acryl abfugen",
+   "versions": {
+    "V1": "https://static.metricool.com/planner/202610/2740762-file-6415687954438789762.mp4"
+   },
+   "trial_day": "2026-10-14",
+   "repost": "2026-11-03",
+   "run": "2026-10"
+  },
+  {
+   "shortcode": "DeZniczFIVk",
+   "title": "1500€ für so eine Tür?😱",
+   "versions": {
+    "V1": "https://static.metricool.com/planner/202611/2740762-file-11034605684762442132.mp4",
+    "V2": "https://static.metricool.com/planner/202611/2740762-file-5177611973685155544.mp4",
+    "V3": "https://static.metricool.com/planner/202611/2740762-file-4793209576663997257.mp4",
+    "V4": "https://static.metricool.com/planner/202611/2740762-file-14147690048417027031.mp4",
+    "V5": "https://static.metricool.com/planner/202611/2740762-file-16134771374004062774.mp4"
+   },
+   "trial_day": "2026-11-20",
+   "repost": "",
+   "run": "2026-11 Test"
+  }
+ ],
+ "skipped": [
+  {
+   "shortcode": "DeO-RrksIA2",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-10"
+  }
+ ],
+ "last_run": "2026-10",
+ "last_attempt": ""
+}
