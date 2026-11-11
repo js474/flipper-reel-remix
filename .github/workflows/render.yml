@@ -1,0 +1,40 @@
+name: Remix rendern
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "Job-JSON (siehe render.py)"
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: remix-render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: ffmpeg installieren
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Job schreiben
+        env:
+          JOB: ${{ inputs.job }}
+        run: printf '%s' "$JOB" > job.json && python3 -c "import json;j=json.load(open('job.json'));print(j['run'], len(j['reels']), 'Reels')"
+      - name: Rendern
+        run: python3 render.py job.json out
+      - name: Als Release hochladen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          RUN=$(python3 -c "import json;print(json.load(open('job.json'))['run'])")
+          TAG="remix-${RUN}-${GITHUB_RUN_ID}"
+          gh release create "$TAG" out/*.mp4 out/manifest.json --title "$TAG" --notes "Trial-Reel-Remix $RUN" --latest=false
+          echo "Release: $TAG"
+      - name: Alte Releases aufräumen (älter als 75 Tage)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CUT=$(date -u -d '75 days ago' +%Y-%m-%dT%H:%M:%SZ)
+          gh release list --limit 100 --json tagName,createdAt --jq ".[] | select(.createdAt < \"$CUT\") | .tagName" | while read t; do gh release delete "$t" --yes --cleanup-tag; done
