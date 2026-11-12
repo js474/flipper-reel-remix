@@ -1,19 +1,19 @@
 {
  "version": 2,
  "slots": {
-  "feed_trial": "11:00",
+  "feed_trial": "12:00 (Aufgabe Feed-Reel als Trial Reel, weitere Quellen 14:00 und 16:00)",
   "remix": [
-   "12:00",
-   "14:00",
+   "11:00",
+   "13:00",
    "15:00",
-   "16:00",
    "17:00",
    "18:00",
    "19:00",
    "20:00",
-   "21:00"
+   "21:00",
+   "22:00"
   ],
-  "quelle": "Metricool Best Time Instagram, Abruf 13.11.2026: stärkste Stunden 11-12 und 14-21 Uhr"
+  "quelle": "Metricool Best Time Instagram, Abruf 13.11.2026: stärkste Stunden 11-12 und 14-21 Uhr; 12, 14, 16 Uhr gehören dem Feed-Trial"
  },
  "lanes": [
   {
@@ -27,14 +27,14 @@
    "queue": [],
    "block": [],
    "start": "2026-11-13",
-   "repost_planned": "2026-11-23",
-   "repost": null,
+   "repost": "2026-11-23",
    "trial_days": [
     "2026-11-13",
     "2026-11-14",
     "2026-11-15",
     "2026-11-16"
-   ]
+   ],
+   "winner": "V1 (Altbestand, Repost schon eingeplant)"
   },
   {
    "lane": 2,
@@ -47,15 +47,15 @@
    "queue": [],
    "block": [],
    "start": "2026-11-13",
-   "repost_planned": "2026-12-02",
-   "repost": null,
+   "repost": "2026-12-02",
    "trial_days": [
     "2026-11-13",
     "2026-11-14",
     "2026-11-15",
     "2026-11-16",
     "2026-11-17"
-   ]
+   ],
+   "winner": "V1 (Altbestand, Repost schon eingeplant)"
   },
   {
    "lane": 3,
@@ -72,14 +72,14 @@
     "2026-11-14"
    ],
    "start": "2026-11-13",
-   "repost_planned": "2026-12-06",
-   "repost": null,
+   "repost": "2026-12-06",
    "trial_days": [
     "2026-11-15",
     "2026-11-16",
     "2026-11-17",
     "2026-11-18"
-   ]
+   ],
+   "winner": "V1 (Altbestand, Repost schon eingeplant)"
   },
   {
    "lane": 4,
@@ -92,25 +92,25 @@
    "queue": [],
    "block": [],
    "start": "2026-11-13",
-   "repost_planned": "2026-11-28",
-   "repost": null,
+   "repost": "2026-11-28",
    "trial_days": [
     "2026-11-13",
     "2026-11-14",
     "2026-11-15",
     "2026-11-16",
     "2026-11-17"
-   ]
+   ],
+   "winner": "V1 (Altbestand, Repost schon eingeplant)"
   }
  ],
  "posted": [
   {
    "date": "2026-11-13",
-   "slot": "12:00",
+   "slot": "13:00",
    "content": "tuer-1500",
    "shortcode": "DeZniczFIVk",
    "variant": "V1",
-   "metricool_id": "426338589",
+   "metricool_id": "426344025",
    "media": "https://static.metricool.com/planner/202611/2740762-file-11034605684762442132.mp4"
   },
   {
@@ -133,20 +133,20 @@
   },
   {
    "date": "2026-11-14",
-   "slot": "12:00",
+   "slot": "13:00",
    "content": "kann",
    "shortcode": "DfKpmBMBfvI",
    "variant": "V2",
-   "metricool_id": "426338880",
+   "metricool_id": "426344073",
    "media": "https://static.metricool.com/planner/202611/2740762-file-7847675739637857039.mp4"
   },
   {
    "date": "2026-11-14",
-   "slot": "14:00",
+   "slot": "15:00",
    "content": "tuer-1500",
    "shortcode": "DeZniczFIVk",
    "variant": "V2",
-   "metricool_id": "426338890",
+   "metricool_id": "426344085",
    "media": "https://static.metricool.com/planner/202611/2740762-file-5177611973685155544.mp4"
   },
   {
@@ -160,20 +160,20 @@
   },
   {
    "date": "2026-11-15",
-   "slot": "12:00",
+   "slot": "13:00",
    "content": "bad",
    "shortcode": "DfXh2EZyN-w",
    "variant": "V3",
-   "metricool_id": "426339178",
+   "metricool_id": "426344095",
    "media": "https://static.metricool.com/planner/202611/2740762-file-11800614338086094967.mp4"
   },
   {
    "date": "2026-11-15",
-   "slot": "14:00",
+   "slot": "17:00",
    "content": "kann",
    "shortcode": "DfKpmBMBfvI",
    "variant": "V3",
-   "metricool_id": "426339188",
+   "metricool_id": "426344104",
    "media": "https://static.metricool.com/planner/202611/2740762-file-8068598218606209880.mp4"
   },
   {
@@ -187,20 +187,20 @@
   },
   {
    "date": "2026-11-15",
-   "slot": "16:00",
+   "slot": "18:00",
    "content": "tuer-1500",
    "shortcode": "DeZniczFIVk",
    "variant": "V3",
-   "metricool_id": "426339207",
+   "metricool_id": "426344357",
    "media": "https://static.metricool.com/planner/202611/2740762-file-4793209576663997257.mp4"
   },
   {
    "date": "2026-11-16",
-   "slot": "14:00",
+   "slot": "18:00",
    "content": "bad",
    "shortcode": "DfXh2EZyN-w",
    "variant": "V5",
-   "metricool_id": "426339517",
+   "metricool_id": "426344367",
    "media": "https://static.metricool.com/planner/202611/2740762-file-10435299787481243078.mp4"
   },
   {
@@ -214,11 +214,11 @@
   },
   {
    "date": "2026-11-16",
-   "slot": "16:00",
+   "slot": "19:00",
    "content": "fliese",
    "shortcode": "DfaG6E_KyM1",
    "variant": "V2",
-   "metricool_id": "426339536",
+   "metricool_id": "426344377",
    "media": "https://static.metricool.com/planner/202611/2740762-file-16585497978043977973.mp4"
   },
   {
@@ -241,11 +241,11 @@
   },
   {
    "date": "2026-11-17",
-   "slot": "16:00",
+   "slot": "18:00",
    "content": "fliese",
    "shortcode": "DfaG6E_KyM1",
    "variant": "V3",
-   "metricool_id": "426339751",
+   "metricool_id": "426344386",
    "media": "https://static.metricool.com/planner/202611/2740762-file-9118226415685434859.mp4"
   },
   {
@@ -259,11 +259,11 @@
   },
   {
    "date": "2026-11-18",
-   "slot": "16:00",
+   "slot": "17:00",
    "content": "fliese",
    "shortcode": "DfaG6E_KyM1",
    "variant": "V5",
-   "metricool_id": "426339892",
+   "metricool_id": "426344401",
    "media": "https://static.metricool.com/planner/202611/2740762-file-7516486621570618408.mp4"
   }
  ],
