@@ -106,8 +106,14 @@ def srt_time(t):
 
 def make_srt(media, srt_path):
     from faster_whisper import WhisperModel  # nur im Runner installiert
+    import wave, numpy as np
+    wav = srt_path + ".wav"
+    run(["ffmpeg", "-y", "-v", "error", "-i", media, "-vn", "-ac", "1", "-ar", "16000", "-f", "wav", wav])
+    with wave.open(wav) as w:
+        audio = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+    os.remove(wav)
     model = WhisperModel("small", device="cpu", compute_type="int8")
-    segs, _ = model.transcribe(media, language="de", word_timestamps=True, vad_filter=True)
+    segs, _ = model.transcribe(audio, language="de", word_timestamps=True, vad_filter=True)
     cues, buf = [], []
     for seg in segs:
         for w in seg.words or []:
