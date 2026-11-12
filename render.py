@@ -61,22 +61,27 @@ def probe(path):
             "height": v and v.get("height"), "audio": a is not None}
 
 
-def text_file(out_dir, name, text, width=18):
+def text_lines(text, width=18):
     lines = []
     for para in text.split("\n"):
         lines += textwrap.wrap(para, width=width) or [""]
-    path = os.path.join(out_dir, name)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
-    return path
+    return lines
 
 
-def drawtext(path, start, end, size=74, y="h*0.20"):
-    p = path.replace("\\", "/").replace(":", "\\:")
+def drawtext(out_dir, name, text, start, end, size=74, top=0.07, width=18):
+    """Eine drawtext-Zeile pro Textzeile (ältere ffmpeg zeigen Zeilenumbrüche aus textfile als Kästchen)."""
     f = FONT.replace("\\", "/").replace(":", "\\:")
-    return (f"drawtext=fontfile='{f}':textfile='{p}':expansion=none:fontsize={size}:fontcolor=white:"
-            f"line_spacing=14:box=1:boxcolor={BOX}:boxborderw=28:x=(w-text_w)/2:y={y}:"
-            f"enable='between(t,{start},{end})'")
+    parts = []
+    for i, line in enumerate(text_lines(text, width)):
+        path = os.path.join(out_dir, f"{name}_{i}.txt")
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(line)
+        p = path.replace("\\", "/").replace(":", "\\:")
+        y = f"h*{top}+{i}*{int(size * 1.55)}"
+        parts.append(f"drawtext=fontfile='{f}':textfile='{p}':expansion=none:fontsize={size}:fontcolor=white:"
+                     f"box=1:boxcolor={BOX}:boxborderw=22:x=(w-text_w)/2:y={y}:"
+                     f"enable='between(t,{start},{end})'")
+    return ",".join(parts)
 
 
 def build(src, segments, dst, post_v="", post_a=""):
@@ -170,13 +175,12 @@ def main(job_path, out_dir):
                 plans["V5"] = dict(segs=[(p2[0], p2[1], ""), full])
             for i, name in enumerate(["V6", "V7", "V8"]):
                 if i < len(hooks):
-                    tf = text_file(out_dir, f"{rid}_{name}.txt", hooks[i])
-                    plans[name] = dict(segs=[P1, full], v=drawtext(tf, 0, 2.5))
+                    plans[name] = dict(segs=[P1, full], v=drawtext(out_dir, f"{rid}_{name}", hooks[i], 0, 2.5))
             if valid(r.get("result"), dur):
                 rs = [float(x) for x in r["result"]]
                 rlen = rs[1] - rs[0]
-                tf = text_file(out_dir, f"{rid}_V9.txt", "So sah es vorher aus", width=22)
-                plans["V9"] = dict(segs=[(rs[0], rs[1], ""), full], v=drawtext(tf, rlen, rlen + 2.2, size=66))
+                plans["V9"] = dict(segs=[(rs[0], rs[1], ""), full],
+                                   v=drawtext(out_dir, f"{rid}_V9", "So sah es vorher aus", rlen, rlen + 2.2, size=66, width=22))
             if valid(r.get("short"), dur, 3):
                 sh = [float(x) for x in r["short"]]
                 sh[1] = min(sh[1], sh[0] + 15 - (p1[1] - p1[0]))
