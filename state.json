@@ -1,4 +1,274 @@
 {
+ "version": 2,
+ "slots": {
+  "feed_trial": "11:00",
+  "remix": [
+   "12:00",
+   "14:00",
+   "15:00",
+   "16:00",
+   "17:00",
+   "18:00",
+   "19:00",
+   "20:00",
+   "21:00"
+  ],
+  "quelle": "Metricool Best Time Instagram, Abruf 13.11.2026: stärkste Stunden 11-12 und 14-21 Uhr"
+ },
+ "lanes": [
+  {
+   "lane": 1,
+   "content": "bad",
+   "shortcode": "DfXh2EZyN-w",
+   "title": "Bad-Angebot 30.000 €",
+   "hook_line": "Würdest du 30.000 € für 4 m² Bad zahlen?",
+   "caption": "Was war das dreisteste Angebot, das du je für eine Bad Renovierung bekommen hast?🛁\n30.000€ ist schon frech oder?😂\n\nKommentiere \"Tools\" und ich schicke dir alle meine kostenlosen Tools🫶\n\n#fixundflip #immobilienhandel #renovierung #baustelle\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [],
+   "queue": [],
+   "block": [],
+   "start": "2026-11-13",
+   "repost_planned": "2026-11-23",
+   "repost": null,
+   "trial_days": [
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16"
+   ]
+  },
+  {
+   "lane": 2,
+   "content": "kann",
+   "shortcode": "DfKpmBMBfvI",
+   "title": "Kann so laufen, muss es aber nicht",
+   "hook_line": "Lohnt sich ein Fix & Flip trotz Chaos?",
+   "caption": "Kann so laufen, muss es aber nicht...😉 \nIch helf dir bei deinem ersten Fix & Flip Projekt damit du nicht die nerven verlierst🫶\n\nKommentiere \"Partner Flippen\" wenn du mit mir an deiner Seite Immos flippen willst🤝\n\n#fixundflip #immobilienhandel #flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [],
+   "queue": [],
+   "block": [],
+   "start": "2026-11-13",
+   "repost_planned": "2026-12-02",
+   "repost": null,
+   "trial_days": [
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+   ]
+  },
+  {
+   "lane": 3,
+   "content": "fliese",
+   "shortcode": "DfaG6E_KyM1",
+   "title": "Fliese 120x60 Fugenbild",
+   "hook_line": "Passt dieses Fugenbild bei 120x60 Fliesen?",
+   "caption": "Was sagst du zu dieser Fliese und wie findest du das Fugenbild bie 120x60cm?🧐\n\nKommentiere \"Tools\" und ich schick dir den Link zur Einkaufsgemeinschaft🫶\n\n#fixundflip #immobilienhandel #renovierung #baustelle\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [],
+   "queue": [],
+   "block": [
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14"
+   ],
+   "start": "2026-11-13",
+   "repost_planned": "2026-12-06",
+   "repost": null,
+   "trial_days": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18"
+   ]
+  },
+  {
+   "lane": 4,
+   "content": "tuer-1500",
+   "shortcode": "DeZniczFIVk",
+   "title": "1500 € für so eine Tür",
+   "hook_line": "Würdest du 1500 € für eine Tür zahlen?",
+   "caption": "1500€ für so eine Tür?😱\nGünstige Alternative: Diamond-Door gibts bei Bauhaus oder auf diamond-door.de🫶\n\n#fixundflip #immobilienhandel flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [],
+   "queue": [],
+   "block": [],
+   "start": "2026-11-13",
+   "repost_planned": "2026-11-28",
+   "repost": null,
+   "trial_days": [
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+   ]
+  }
+ ],
+ "posted": [
+  {
+   "date": "2026-11-13",
+   "slot": "12:00",
+   "content": "tuer-1500",
+   "shortcode": "DeZniczFIVk",
+   "variant": "V1",
+   "metricool_id": "426338589",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-11034605684762442132.mp4"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "20:00",
+   "content": "bad",
+   "shortcode": "DfXh2EZyN-w",
+   "variant": "V1",
+   "metricool_id": "426338601",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-14265342449473439641.mp4"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "21:00",
+   "content": "kann",
+   "shortcode": "DfKpmBMBfvI",
+   "variant": "V1",
+   "metricool_id": "426338616",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-2376152804825071940.mp4"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "12:00",
+   "content": "kann",
+   "shortcode": "DfKpmBMBfvI",
+   "variant": "V2",
+   "metricool_id": "426338880",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-7847675739637857039.mp4"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "14:00",
+   "content": "tuer-1500",
+   "shortcode": "DeZniczFIVk",
+   "variant": "V2",
+   "metricool_id": "426338890",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-5177611973685155544.mp4"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "21:00",
+   "content": "bad",
+   "shortcode": "DfXh2EZyN-w",
+   "variant": "V2",
+   "metricool_id": "426338930",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-16162752182573525885.mp4"
+  },
+  {
+   "date": "2026-11-15",
+   "slot": "12:00",
+   "content": "bad",
+   "shortcode": "DfXh2EZyN-w",
+   "variant": "V3",
+   "metricool_id": "426339178",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-11800614338086094967.mp4"
+  },
+  {
+   "date": "2026-11-15",
+   "slot": "14:00",
+   "content": "kann",
+   "shortcode": "DfKpmBMBfvI",
+   "variant": "V3",
+   "metricool_id": "426339188",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-8068598218606209880.mp4"
+  },
+  {
+   "date": "2026-11-15",
+   "slot": "15:00",
+   "content": "fliese",
+   "shortcode": "DfaG6E_KyM1",
+   "variant": "V1",
+   "metricool_id": "426339197",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-282602752542029774.mp4"
+  },
+  {
+   "date": "2026-11-15",
+   "slot": "16:00",
+   "content": "tuer-1500",
+   "shortcode": "DeZniczFIVk",
+   "variant": "V3",
+   "metricool_id": "426339207",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-4793209576663997257.mp4"
+  },
+  {
+   "date": "2026-11-16",
+   "slot": "14:00",
+   "content": "bad",
+   "shortcode": "DfXh2EZyN-w",
+   "variant": "V5",
+   "metricool_id": "426339517",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-10435299787481243078.mp4"
+  },
+  {
+   "date": "2026-11-16",
+   "slot": "15:00",
+   "content": "kann",
+   "shortcode": "DfKpmBMBfvI",
+   "variant": "V4",
+   "metricool_id": "426339526",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-13433806080574707254.mp4"
+  },
+  {
+   "date": "2026-11-16",
+   "slot": "16:00",
+   "content": "fliese",
+   "shortcode": "DfaG6E_KyM1",
+   "variant": "V2",
+   "metricool_id": "426339536",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-16585497978043977973.mp4"
+  },
+  {
+   "date": "2026-11-16",
+   "slot": "17:00",
+   "content": "tuer-1500",
+   "shortcode": "DeZniczFIVk",
+   "variant": "V4",
+   "metricool_id": "426339547",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-14147690048417027031.mp4"
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "15:00",
+   "content": "kann",
+   "shortcode": "DfKpmBMBfvI",
+   "variant": "V5",
+   "metricool_id": "426339742",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-743211749915805804.mp4"
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "16:00",
+   "content": "fliese",
+   "shortcode": "DfaG6E_KyM1",
+   "variant": "V3",
+   "metricool_id": "426339751",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-9118226415685434859.mp4"
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "17:00",
+   "content": "tuer-1500",
+   "shortcode": "DeZniczFIVk",
+   "variant": "V5",
+   "metricool_id": "426339761",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-16134771374004062774.mp4"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "16:00",
+   "content": "fliese",
+   "shortcode": "DfaG6E_KyM1",
+   "variant": "V5",
+   "metricool_id": "426339892",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-7516486621570618408.mp4"
+  }
+ ],
+ "results": [],
+ "variant_wins": {},
  "processed": [
   {
    "shortcode": "Ddo6J1QDAJN",
@@ -130,6 +400,7 @@
    "run": "2026-11"
   }
  ],
+ "cooldown_days": 60,
  "last_run": "2026-11",
  "last_attempt": "2026-11-11"
 }

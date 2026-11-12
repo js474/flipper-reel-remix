@@ -27,7 +27,7 @@ def save(s):
     open(STATE, "a").write("\n")
 
 
-DOMAIN = re.compile(r"\s*(oder\s+)?(auf\s+)?(https?://)?(www\.)?[a-z0-9-]+\.(de|com|net|immo|io|shop)\b(/\S*)?", re.I)
+DOMAIN = re.compile(r"\s*(oder\s+)?(auf\s+)?(?<![@\w.])(https?://)?(www\.)?[a-z0-9-]+\.(de|com|net|immo|io|shop)\b(/\S*)?", re.I)
 
 
 def clean_caption(text):
@@ -36,6 +36,8 @@ def clean_caption(text):
     for line in text.split("\n"):
         new = DOMAIN.sub("", line).rstrip()
         new = re.sub(r"\s+(🫶)", r"\1", new)
+        if new != line.rstrip() and not re.search(r"[A-Za-zÄÖÜäöüß0-9]", new):
+            continue
         out.append(new)
     return "\n".join(out)
 
@@ -59,17 +61,14 @@ def day(date, exclude):
               and date not in l.get("block", []) and l["content"] not in used
               and l.get("start", "0000") <= date]
     taken = {p["slot"] for p in s["posted"] if p["date"] == date}
-    free = [x for x in slots if x not in taken]
+    off = d.toordinal() % len(slots)
+    order = [x for x in slots[off:] + slots[:off] if x not in taken]
     plan = []
-    off = d.toordinal()
-    for i, lane in enumerate(sorted(active, key=lambda l: l["lane"])):
-        if not free:
-            break
-        slot = free[(i + off) % len(free)] if len(free) == len(slots) else free[0]
-        free.remove(slot)
+    for lane, slot in zip(sorted(active, key=lambda l: l["lane"]), order):
         item = lane["queue"][0]
         plan.append({"date": date, "slot": slot, "content": lane["content"], "shortcode": lane["shortcode"],
-                     "variant": item["v"], "media": item["url"], "caption": caption_for(lane, item["v"])})
+                     "variant": item["v"], "media": item["url"], "caption": caption_for(lane, item["v"]),
+                     "existing": item.get("existing")})
     plan.sort(key=lambda p: p["slot"])
     print(json.dumps(plan, ensure_ascii=False, indent=1))
 
