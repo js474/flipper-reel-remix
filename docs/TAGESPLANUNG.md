@@ -1,14 +1,16 @@
 # Trial-Reels Tagesplanung (Betriebsanleitung)
 
-Wird von der geplanten Aufgabe "Trial-Reels Tagesplanung" täglich gelesen. Dort steht der Ablauf, hier die festen Regeln.
+Wird von der geplanten Aufgabe "Trial-Reels Planung" gelesen (alle 3 Tage, am 1., 4., 7. ... des Monats um 20:41, plant MORGEN bis MORGEN+2). Dort steht der Ablauf, hier die festen Regeln.
 
 ## Raster (Metricool Best Time Instagram, Stand 13.11.2026)
 - 12:00 Feed-Trial (Aufgabe "Feed-Reel als Trial Reel", weitere Quellen 14:00 und 16:00)
-- Remix: 11, 13, 15, 17, 18, 19, 20, 21, 22 Uhr (9 Slots), steht in state.json unter slots.remix
-- Zusammen 10 Trial Reels pro Tag, 7 Tage die Woche
+- Remix: 11, 15, 17, 18, 19, 20, 21 Uhr (7 Slots), steht in state.json unter slots.remix
+- Zusammen höchstens 8 Trial Reels pro Tag (slots.max_trials) inklusive Feed-Trial, 7 Tage die Woche. Ist der Feed-Trial noch nicht eingeplant, hält plan.py einen Platz frei. Alte Posts in posted zählen mit.
+- Ab 14.11.2026 (Entscheidung Johannes 13.11.): 8 statt 10 Trials, damit der Stoff länger reicht. 13 und 22 Uhr entfallen (außerhalb der Best Times).
 
 ## Lanes
-- 9 Lanes = 9 verschiedene Inhalte gleichzeitig. Jede Lane bekommt pro Tag höchstens einen Slot.
+- Höchstens 7 Lanes (slots.max_lanes) = 7 verschiedene Inhalte gleichzeitig. Jede Lane bekommt pro Tag höchstens einen Slot. Reichen die Slots nicht, kommt zuerst die Lane dran, die am längsten nicht lief.
+- Am 13.11. liefen noch 9 Lanes. Neue Lanes kommen erst dazu, wenn weniger als 7 aktiv sind.
 - Ein Inhalt läuft nie zweimal am selben Tag. Gesperrt (block) sind Tage, an denen derselbe Inhalt als Feed-Reel, Feed-Trial oder Repost läuft, plus der Tag davor und danach.
 - Die Uhrzeit rotiert täglich (plan.py), damit jede Variante in verschiedenen Slots läuft.
 

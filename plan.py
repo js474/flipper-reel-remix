@@ -4,8 +4,10 @@ Jede Lane ist ein Inhalt (ein Original-Reel) mit einer Warteschlange gerenderter
 Pro Tag bekommt jede Lane höchstens einen Slot. Damit läuft ein Inhalt nie zweimal am selben Tag.
 
 Befehle:
-  python3 plan.py day 2026-11-14 [--exclude bad,kann]   Posts für den Tag als JSON (ändert nichts)
-  python3 plan.py commit 2026-11-14 <content> <V> <metricool_id> <slot>
+  python3 plan.py day 2026-11-14 [--exclude bad,kann] [--others N]   Posts für den Tag als JSON (ändert nichts)
+      --others N = TRIAL_REEL an dem Tag in Metricool, die nicht in posted stehen (z. B. Feed-Trial).
+      Obergrenze: slots.max_trials pro Tag inkl. Feed-Trial (fehlt der Feed-Trial noch, wird 1 Platz freigehalten).
+  python3 plan.py commit 2026-11-14 <content> <V> <metricool_id> <slot> <static.metricool.com-URL aus der Antwort>
   python3 plan.py status                                 Lanes, Restvarianten, freie Lanes
   python3 plan.py add-lane lane.json                     neue Lane aus Render-Ergebnis anlegen
   python3 plan.py done-lanes                             Lanes ohne Varianten, deren Repost fehlt
@@ -52,19 +54,24 @@ def caption_for(lane, v):
     return clean_caption(text)
 
 
-def day(date, exclude):
+def day(date, exclude, others=0):
     s = load()
     slots = s["slots"]["remix"]
     d = dt.date.fromisoformat(date)
-    used = {p["content"] for p in s["posted"] if p["date"] == date}
+    posted_today = [p for p in s["posted"] if p["date"] == date]
+    used = {p["content"] for p in posted_today}
+    cap = s["slots"].get("max_trials", 8) - len(posted_today) - max(others, 1)
     active = [l for l in s["lanes"] if l["queue"] and l["content"] not in exclude
               and date not in l.get("block", []) and l["content"] not in used
               and l.get("start", "0000") <= date]
-    taken = {p["slot"] for p in s["posted"] if p["date"] == date}
+    # Fairness: Lanes, die am längsten nicht liefen, zuerst
+    active.sort(key=lambda l: (max(l.get("trial_days") or [""]), l["lane"]))
+    active = active[:max(cap, 0)]
+    taken = {p["slot"] for p in posted_today}
     off = d.toordinal() % len(slots)
     order = [x for x in slots[off:] + slots[:off] if x not in taken]
     plan = []
-    for lane, slot in zip(sorted(active, key=lambda l: l["lane"]), order):
+    for lane, slot in zip(active, order):
         item = lane["queue"][0]
         plan.append({"date": date, "slot": slot, "content": lane["content"], "shortcode": lane["shortcode"],
                      "variant": item["v"], "media": item["url"], "caption": caption_for(lane, item["v"]),
@@ -73,7 +80,7 @@ def day(date, exclude):
     print(json.dumps(plan, ensure_ascii=False, indent=1))
 
 
-def commit(date, content, v, mid, slot=None):
+def commit(date, content, v, mid, slot=None, media=None):
     s = load()
     lane = next(l for l in s["lanes"] if l["content"] == content)
     item = next(q for q in lane["queue"] if q["v"] == v)
@@ -81,7 +88,7 @@ def commit(date, content, v, mid, slot=None):
         sys.exit(f"ABBRUCH: {content} ist am {date} schon geplant")
     lane["queue"].remove(item)
     s["posted"].append({"date": date, "slot": slot, "content": content, "shortcode": lane["shortcode"],
-                        "variant": v, "metricool_id": mid, "media": item["url"]})
+                        "variant": v, "metricool_id": mid, "media": media or item["url"]})
     lane.setdefault("trial_days", []).append(date)
     save(s)
     print(f"ok {date} {content} {v} {mid}")
@@ -92,7 +99,7 @@ def status():
     for l in s["lanes"]:
         print(f"Lane {l['lane']}: {l['content']:<12} rest {len(l['queue']):>2} {[q['v'] for q in l['queue']]} "
               f"repost {l.get('repost')}")
-    free = len(s["slots"]["remix"]) - sum(1 for l in s["lanes"] if l["queue"])
+    free = s["slots"].get("max_lanes", len(s["slots"]["remix"])) - sum(1 for l in s["lanes"] if l["queue"])
     print(f"Freie Lanes (brauchen neues Reel): {max(free, 0)}")
 
 
@@ -101,8 +108,11 @@ def add_lane(path):
     new = json.load(open(path, encoding="utf-8"))
     if any(l["content"] == new["content"] for l in s["lanes"] if l["queue"]):
         sys.exit(f"ABBRUCH: Lane {new['content']} läuft noch")
-    used = {l["lane"] for l in s["lanes"] if l["queue"]}
-    new["lane"] = min(set(range(1, len(s["slots"]["remix"]) + 1)) - used)
+    active = [l for l in s["lanes"] if l["queue"]]
+    if len(active) >= s["slots"].get("max_lanes", len(s["slots"]["remix"])):
+        sys.exit("ABBRUCH: keine freie Lane")
+    used = {l["lane"] for l in active}
+    new["lane"] = min(set(range(1, len(s["lanes"]) + 2)) - used)
     s["lanes"] = [l for l in s["lanes"] if not (l["lane"] == new["lane"] and not l["queue"] and l.get("repost"))]
     s["lanes"].append(new)
     save(s)
@@ -141,9 +151,10 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     if a[0] == "day":
         ex = a[a.index("--exclude") + 1].split(",") if "--exclude" in a else []
-        day(a[1], [e for e in ex if e])
+        oth = int(a[a.index("--others") + 1]) if "--others" in a else 0
+        day(a[1], [e for e in ex if e], oth)
     elif a[0] == "commit":
-        commit(a[1], a[2], a[3], a[4], a[5] if len(a) > 5 else None)
+        commit(a[1], a[2], a[3], a[4], a[5] if len(a) > 5 else None, a[6] if len(a) > 6 else None)
     elif a[0] == "status":
         status()
     elif a[0] == "add-lane":
