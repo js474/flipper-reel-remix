@@ -15,7 +15,7 @@ Wird von der geplanten Aufgabe "Trial-Reels Tagesplanung" täglich gelesen. Dort
 ## Varianten (render.py)
 V1 Peak vorne + Original | V3 +10 % Sättigung | V4 unnötiges Ende weg | V5 zweiter Peak als Hook
 V6 Text-Hook Zahl | V7 Text-Hook Meinung | V8 Text-Hook Fehler | V9 Ergebnis zuerst + "So sah es vorher aus"
-V10 15-s-Cut | V11 Loop-Ende | V12 Zoom erste Sekunde | V13 eingebrannte Untertitel
+V10 15-s-Cut | V11 Loop-Ende | V12 Zoom erste Sekunde | V13 eingebrannte Untertitel (nur wenn das Original noch keine hat, Job-Feld "subs": true)
 V2 (1 % schneller) entfällt ab 13.11.2026.
 Reihenfolge in der Warteschlange: V1, V6, V3, V9, V7, V10, V4, V8, V12, V5, V13, V11 (fehlende überspringen).
 

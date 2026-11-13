@@ -189,7 +189,8 @@ def main(job_path, out_dir):
                 plans["V11"] = dict(segs=[P1, (0, float(r["loop_end"]), "")])
             z_end = min(p1[0] + 1.0, p1[1])
             plans["V12"] = dict(segs=[(p1[0], z_end, ZOOM)] + ([(z_end, p1[1], "")] if p1[1] - z_end > 0.1 else []) + [full])
-            plans["V13"] = dict(segs=[P1, full], subs=True)
+            if r.get("subs"):  # nur wenn das Original keine eingebrannten Untertitel hat
+                plans["V13"] = dict(segs=[P1, full], subs=True)
             only = r.get("only")
             if only:
                 plans = {k: v for k, v in plans.items() if k in only}

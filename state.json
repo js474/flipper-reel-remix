@@ -17,90 +17,274 @@
  },
  "lanes": [
   {
-   "lane": 1,
-   "content": "bad",
-   "shortcode": "DfXh2EZyN-w",
-   "title": "Bad-Angebot 30.000 €",
-   "hook_line": "Würdest du 30.000 € für 4 m² Bad zahlen?",
-   "caption": "Was war das dreisteste Angebot, das du je für eine Bad Renovierung bekommen hast?🛁\n30.000€ ist schon frech oder?😂\n\nKommentiere \"Tools\" und ich schicke dir alle meine kostenlosen Tools🫶\n\n#fixundflip #immobilienhandel #renovierung #baustelle\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
-   "hooks": [],
-   "queue": [],
+   "content": "loft-tuer",
+   "shortcode": "Dax4XbSgIeF",
+   "title": "Günstige Loft-Türen von der Stange😍",
+   "hook_line": "Loft-Tür für 400 Euro statt 3.000?",
+   "caption": "Günstige Loft-Türen von der Stange😍\nEure Fragen aus der Theorie, meine Antworten aus der Praxis🙏\n\nKommentiere \"Partner Flippen\" wenn du mit mir an deiner Seite Immos flippen willst🤝\n\n#fixundflip #immobilienhandel #flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [
+    "Loft-Tür für 400 € statt 3.000 €?",
+    "Würdest du die von der Stange nehmen?",
+    "Maßanfertigung ist hier rausgeworfenes Geld."
+   ],
+   "queue": [
+    {
+     "v": "V6",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/Dax4XbSgIeF_V6.mp4"
+    },
+    {
+     "v": "V3",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/Dax4XbSgIeF_V3.mp4"
+    },
+    {
+     "v": "V9",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/Dax4XbSgIeF_V9.mp4"
+    },
+    {
+     "v": "V7",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/Dax4XbSgIeF_V7.mp4"
+    },
+    {
+     "v": "V10",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/Dax4XbSgIeF_V10.mp4"
+    },
+    {
+     "v": "V4",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/Dax4XbSgIeF_V4.mp4"
+    },
+    {
+     "v": "V8",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/Dax4XbSgIeF_V8.mp4"
+    },
+    {
+     "v": "V12",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/Dax4XbSgIeF_V12.mp4"
+    }
+   ],
    "block": [],
    "start": "2026-11-13",
-   "repost": "2026-11-23",
+   "lane": 1,
    "trial_days": [
+    "2026-11-13"
+   ]
+  },
+  {
+   "content": "elektrik-2adern",
+   "shortcode": "DcJbY6Fk3fb",
+   "title": "⚠️Dann musst du immer die Elektrik neu machen!🔌",
+   "hook_line": "Zwei Adern im Kabel, was heißt das für dich?",
+   "caption": "⚠️Dann musst du immer die Elektrik neu machen!🔌\n\nKommentiere \"Partner Flippen\" wenn du mit mir an deiner Seite Immos flippen willst🤝\n\n#fixundflip #immobilienhandel #flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [
+    "6.000 bis 10.000 € nur für die Elektrik?",
+    "Hättest du das bei der Besichtigung erkannt?",
+    "Zwei Adern im Kabel: Alles muss neu."
+   ],
+   "queue": [
+    {
+     "v": "V6",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DcJbY6Fk3fb_V6.mp4"
+    },
+    {
+     "v": "V3",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DcJbY6Fk3fb_V3.mp4"
+    },
+    {
+     "v": "V7",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DcJbY6Fk3fb_V7.mp4"
+    },
+    {
+     "v": "V10",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DcJbY6Fk3fb_V10.mp4"
+    },
+    {
+     "v": "V4",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DcJbY6Fk3fb_V4.mp4"
+    },
+    {
+     "v": "V8",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DcJbY6Fk3fb_V8.mp4"
+    },
+    {
+     "v": "V12",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DcJbY6Fk3fb_V12.mp4"
+    },
+    {
+     "v": "V5",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DcJbY6Fk3fb_V5.mp4"
+    }
+   ],
+   "block": [],
+   "start": "2026-11-13",
+   "lane": 2,
+   "trial_days": [
+    "2026-11-13"
+   ]
+  },
+  {
+   "content": "ikea-kueche",
+   "shortcode": "DYr-syhlLXQ",
+   "title": "Was denkst du hat diese Küche gekostet?🧐",
+   "hook_line": "Ikea oder Designerküche, was tippst du?",
+   "caption": "Was denkst du hat diese Küche gekostet?🧐\n@timalbeck\nDas ganze Video auf YouTube für dich❤️\n\nKommentiere \"Tools\" und ich schicke dir alle meine kostenlosen Tools🫶\n\n#fixundflip #immobilienhandel #flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [
+    "Diese Küche ist von Ikea. Was hat sie gekostet?",
+    "Hättest du auf Ikea getippt?",
+    "Die meisten tippen hier falsch."
+   ],
+   "queue": [
+    {
+     "v": "V6",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DYr-syhlLXQ_V6.mp4"
+    },
+    {
+     "v": "V3",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DYr-syhlLXQ_V3.mp4"
+    },
+    {
+     "v": "V9",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DYr-syhlLXQ_V9.mp4"
+    },
+    {
+     "v": "V7",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DYr-syhlLXQ_V7.mp4"
+    },
+    {
+     "v": "V10",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DYr-syhlLXQ_V10.mp4"
+    },
+    {
+     "v": "V4",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DYr-syhlLXQ_V4.mp4"
+    },
+    {
+     "v": "V8",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DYr-syhlLXQ_V8.mp4"
+    },
+    {
+     "v": "V12",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DYr-syhlLXQ_V12.mp4"
+    }
+   ],
+   "block": [],
+   "start": "2026-11-13",
+   "lane": 3,
+   "trial_days": [
+    "2026-11-13"
+   ]
+  },
+  {
+   "content": "duschpodest",
+   "shortcode": "DaqJj5LClaJ",
+   "title": "Wenns nicht anders geht gibts ein Duschpodest🛁",
+   "hook_line": "Warum ist hier eine Stufe in der Dusche?",
+   "caption": "Wenns nicht anders geht gibts ein Duschpodest🛁\n\nKommentiere \"Tools\" und ich schicke dir alle meine kostenlosen Tools🫶\n\n#fixundflip #immobilienhandel #flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [
+    "Warum ist hier eine Stufe in der Dusche?",
+    "Podest oder bodengleich: Was nimmst du?",
+    "Zu wenig Estrich: Ebenerdig geht nicht."
+   ],
+   "queue": [
+    {
+     "v": "V1",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaqJj5LClaJ_V1.mp4"
+    },
+    {
+     "v": "V6",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaqJj5LClaJ_V6.mp4"
+    },
+    {
+     "v": "V3",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaqJj5LClaJ_V3.mp4"
+    },
+    {
+     "v": "V9",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaqJj5LClaJ_V9.mp4"
+    },
+    {
+     "v": "V7",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaqJj5LClaJ_V7.mp4"
+    },
+    {
+     "v": "V10",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaqJj5LClaJ_V10.mp4"
+    },
+    {
+     "v": "V4",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaqJj5LClaJ_V4.mp4"
+    },
+    {
+     "v": "V8",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaqJj5LClaJ_V8.mp4"
+    },
+    {
+     "v": "V12",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaqJj5LClaJ_V12.mp4"
+    }
+   ],
+   "block": [
     "2026-11-13",
     "2026-11-14",
     "2026-11-15",
     "2026-11-16"
    ],
-   "winner": "V1 (Altbestand, Repost schon eingeplant)"
+   "start": "2026-11-13",
+   "lane": 4
   },
   {
-   "lane": 2,
-   "content": "kann",
-   "shortcode": "DfKpmBMBfvI",
-   "title": "Kann so laufen, muss es aber nicht",
-   "hook_line": "Lohnt sich ein Fix & Flip trotz Chaos?",
-   "caption": "Kann so laufen, muss es aber nicht...😉 \nIch helf dir bei deinem ersten Fix & Flip Projekt damit du nicht die nerven verlierst🫶\n\nKommentiere \"Partner Flippen\" wenn du mit mir an deiner Seite Immos flippen willst🤝\n\n#fixundflip #immobilienhandel #flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
-   "hooks": [],
-   "queue": [],
+   "content": "aluleiste",
+   "shortcode": "DaYIF5AD-MJ",
+   "title": "Das wird es bei mir nie geben! 😅",
+   "hook_line": "Aluleiste zwischen Fliese und Parkett, ernsthaft?",
+   "caption": "Das wird es bei mir nie geben! 😅\n\nKommentiere \"Tools\" und ich schicke dir alle meine kostenlosen Tools🫶\n\n#fixundflip #immobilienhandel #flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [
+    "Aluleiste zwischen Fliese und Parkett?",
+    "Würdest du das so abnehmen?",
+    "Diesen Übergang siehst du bei mir nie."
+   ],
+   "queue": [
+    {
+     "v": "V6",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaYIF5AD-MJ_V6.mp4"
+    },
+    {
+     "v": "V3",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaYIF5AD-MJ_V3.mp4"
+    },
+    {
+     "v": "V9",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaYIF5AD-MJ_V9.mp4"
+    },
+    {
+     "v": "V7",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaYIF5AD-MJ_V7.mp4"
+    },
+    {
+     "v": "V10",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaYIF5AD-MJ_V10.mp4"
+    },
+    {
+     "v": "V4",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaYIF5AD-MJ_V4.mp4"
+    },
+    {
+     "v": "V8",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaYIF5AD-MJ_V8.mp4"
+    },
+    {
+     "v": "V12",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaYIF5AD-MJ_V12.mp4"
+    },
+    {
+     "v": "V5",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaYIF5AD-MJ_V5.mp4"
+    }
+   ],
    "block": [],
    "start": "2026-11-13",
-   "repost": "2026-12-02",
+   "lane": 5,
    "trial_days": [
-    "2026-11-13",
-    "2026-11-14",
-    "2026-11-15",
-    "2026-11-16",
-    "2026-11-17"
-   ],
-   "winner": "V1 (Altbestand, Repost schon eingeplant)"
-  },
-  {
-   "lane": 3,
-   "content": "fliese",
-   "shortcode": "DfaG6E_KyM1",
-   "title": "Fliese 120x60 Fugenbild",
-   "hook_line": "Passt dieses Fugenbild bei 120x60 Fliesen?",
-   "caption": "Was sagst du zu dieser Fliese und wie findest du das Fugenbild bie 120x60cm?🧐\n\nKommentiere \"Tools\" und ich schick dir den Link zur Einkaufsgemeinschaft🫶\n\n#fixundflip #immobilienhandel #renovierung #baustelle\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
-   "hooks": [],
-   "queue": [],
-   "block": [
-    "2026-11-12",
-    "2026-11-13",
-    "2026-11-14"
-   ],
-   "start": "2026-11-13",
-   "repost": "2026-12-06",
-   "trial_days": [
-    "2026-11-15",
-    "2026-11-16",
-    "2026-11-17",
-    "2026-11-18"
-   ],
-   "winner": "V1 (Altbestand, Repost schon eingeplant)"
-  },
-  {
-   "lane": 4,
-   "content": "tuer-1500",
-   "shortcode": "DeZniczFIVk",
-   "title": "1500 € für so eine Tür",
-   "hook_line": "Würdest du 1500 € für eine Tür zahlen?",
-   "caption": "1500€ für so eine Tür?😱\nGünstige Alternative: Diamond-Door gibts bei Bauhaus oder auf diamond-door.de🫶\n\n#fixundflip #immobilienhandel flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
-   "hooks": [],
-   "queue": [],
-   "block": [],
-   "start": "2026-11-13",
-   "repost": "2026-11-28",
-   "trial_days": [
-    "2026-11-13",
-    "2026-11-14",
-    "2026-11-15",
-    "2026-11-16",
-    "2026-11-17"
-   ],
-   "winner": "V1 (Altbestand, Repost schon eingeplant)"
+    "2026-11-13"
+   ]
   }
  ],
  "posted": [
@@ -265,6 +449,42 @@
    "variant": "V5",
    "metricool_id": "426344401",
    "media": "https://static.metricool.com/planner/202611/2740762-file-7516486621570618408.mp4"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "11:00",
+   "content": "elektrik-2adern",
+   "shortcode": "DcJbY6Fk3fb",
+   "variant": "V1",
+   "metricool_id": "426709158",
+   "media": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DcJbY6Fk3fb_V1.mp4"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "15:00",
+   "content": "ikea-kueche",
+   "shortcode": "DYr-syhlLXQ",
+   "variant": "V1",
+   "metricool_id": "426709191",
+   "media": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DYr-syhlLXQ_V1.mp4"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "17:00",
+   "content": "aluleiste",
+   "shortcode": "DaYIF5AD-MJ",
+   "variant": "V1",
+   "metricool_id": "426709221",
+   "media": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaYIF5AD-MJ_V1.mp4"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "22:00",
+   "content": "loft-tuer",
+   "shortcode": "Dax4XbSgIeF",
+   "variant": "V1",
+   "metricool_id": "426709261",
+   "media": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/Dax4XbSgIeF_V1.mp4"
   }
  ],
  "results": [],
@@ -386,6 +606,31 @@
    "trial_day": "2026-11-15",
    "repost": "2026-12-06",
    "run": "2026-11"
+  },
+  {
+   "shortcode": "Dax4XbSgIeF",
+   "title": "Günstige Loft-Türen von der Stange",
+   "run": "2026-11-13 Lanes v2"
+  },
+  {
+   "shortcode": "DcJbY6Fk3fb",
+   "title": "Dann musst du immer die Elektrik neu machen",
+   "run": "2026-11-13 Lanes v2"
+  },
+  {
+   "shortcode": "DYr-syhlLXQ",
+   "title": "Was denkst du hat diese Küche gekostet?",
+   "run": "2026-11-13 Lanes v2"
+  },
+  {
+   "shortcode": "DaqJj5LClaJ",
+   "title": "Wenns nicht anders geht gibts ein Duschpodest",
+   "run": "2026-11-13 Lanes v2"
+  },
+  {
+   "shortcode": "DaYIF5AD-MJ",
+   "title": "Das wird es bei mir nie geben",
+   "run": "2026-11-13 Lanes v2"
   }
  ],
  "skipped": [
