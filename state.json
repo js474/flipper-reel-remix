@@ -29,10 +29,6 @@
    ],
    "queue": [
     {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/Dax4XbSgIeF_V6.mp4"
-    },
-    {
      "v": "V3",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/Dax4XbSgIeF_V3.mp4"
     },
@@ -65,7 +61,8 @@
    "start": "2026-11-13",
    "lane": 1,
    "trial_days": [
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
    ]
   },
   {
@@ -80,10 +77,6 @@
     "Zwei Adern im Kabel: Alles muss neu."
    ],
    "queue": [
-    {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DcJbY6Fk3fb_V6.mp4"
-    },
     {
      "v": "V3",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DcJbY6Fk3fb_V3.mp4"
@@ -117,7 +110,8 @@
    "start": "2026-11-13",
    "lane": 2,
    "trial_days": [
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
    ]
   },
   {
@@ -132,10 +126,6 @@
     "Die meisten tippen hier falsch."
    ],
    "queue": [
-    {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DYr-syhlLXQ_V6.mp4"
-    },
     {
      "v": "V3",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DYr-syhlLXQ_V3.mp4"
@@ -169,7 +159,8 @@
    "start": "2026-11-13",
    "lane": 3,
    "trial_days": [
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
    ]
   },
   {
@@ -243,10 +234,6 @@
    ],
    "queue": [
     {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaYIF5AD-MJ_V6.mp4"
-    },
-    {
      "v": "V3",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaYIF5AD-MJ_V3.mp4"
     },
@@ -283,7 +270,8 @@
    "start": "2026-11-13",
    "lane": 5,
    "trial_days": [
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
    ]
   },
   {
@@ -298,10 +286,6 @@
     "Achte bei LED-Leisten zuerst auf die Lichtfarbe."
    ],
    "queue": [
-    {
-     "v": "V1",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DTQellPk2Is_V1.mp4"
-    },
     {
      "v": "V6",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DTQellPk2Is_V6.mp4"
@@ -341,7 +325,10 @@
    ],
    "block": [],
    "start": "2026-11-14",
-   "lane": 6
+   "lane": 6,
+   "trial_days": [
+    "2026-11-14"
+   ]
   },
   {
    "content": "besichtigung-tools",
@@ -355,10 +342,6 @@
     "Fehler: Zu viel Equipment zur Besichtigung mitnehmen."
    ],
    "queue": [
-    {
-     "v": "V1",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DUWAOKuCCUG_V1.mp4"
-    },
     {
      "v": "V6",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DUWAOKuCCUG_V6.mp4"
@@ -394,7 +377,10 @@
    ],
    "block": [],
    "start": "2026-11-14",
-   "lane": 7
+   "lane": 7,
+   "trial_days": [
+    "2026-11-14"
+   ]
   },
   {
    "content": "reihenhaus-15j",
@@ -652,6 +638,60 @@
    "variant": "V1",
    "metricool_id": "426709261",
    "media": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/Dax4XbSgIeF_V1.mp4"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "11:00",
+   "content": "elektrik-2adern",
+   "shortcode": "DcJbY6Fk3fb",
+   "variant": "V6",
+   "metricool_id": "426729661",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-17381088656385343802.mp4"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "17:00",
+   "content": "ikea-kueche",
+   "shortcode": "DYr-syhlLXQ",
+   "variant": "V6",
+   "metricool_id": "426729927",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-13325282698988136336.mp4"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "18:00",
+   "content": "aluleiste",
+   "shortcode": "DaYIF5AD-MJ",
+   "variant": "V6",
+   "metricool_id": "426730065",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-3959978601866332535.mp4"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "19:00",
+   "content": "led-leisten",
+   "shortcode": "DTQellPk2Is",
+   "variant": "V1",
+   "metricool_id": "426730214",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-17711601250529932537.mp4"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "20:00",
+   "content": "besichtigung-tools",
+   "shortcode": "DUWAOKuCCUG",
+   "variant": "V1",
+   "metricool_id": "426730362",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-13669085791134156119.mp4"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "22:00",
+   "content": "loft-tuer",
+   "shortcode": "Dax4XbSgIeF",
+   "variant": "V6",
+   "metricool_id": "426730571",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-14833230396745678386.mp4"
   }
  ],
  "results": [],
@@ -888,6 +928,6 @@
   }
  ],
  "cooldown_days": 60,
- "last_run": "2026-11",
+ "last_run": "2026-11-13",
  "last_attempt": "2026-11-13"
 }
