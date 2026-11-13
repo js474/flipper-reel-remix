@@ -438,6 +438,59 @@
    "block": [],
    "start": "2026-11-14",
    "lane": 8
+  },
+  {
+   "content": "duschglas-streben",
+   "shortcode": "De9c4hNPOOb",
+   "title": "Übertreibs bitte nicht....🛁",
+   "hook_line": "Wie dick muss deine Duschwand aus Glas sein?",
+   "caption": "Übertreibs bitte nicht....🛁\nVideo ist jetzt ready für dich auf YouTube🫶\n\nKommentiere VLOG und ich schick dir das Video per DM🫶\n\n#fixundflip #immobilienhandel flipperimmo #renovierung #baustelle #kaufenrenovierenverkaufen #vorhernachher #ankauf\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [
+    "10 statt 8 Millimeter: Darauf achtest du bei Duschglas",
+    "Schwarze Streben in der Dusche: Zu viel des Guten?",
+    "Kauf kein 8-mm-Duschglas, nimm 10 mm ESG"
+   ],
+   "queue": [
+    {
+     "v": "V1",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V1.mp4"
+    },
+    {
+     "v": "V6",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V6.mp4"
+    },
+    {
+     "v": "V3",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V3.mp4"
+    },
+    {
+     "v": "V7",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V7.mp4"
+    },
+    {
+     "v": "V10",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V10.mp4"
+    },
+    {
+     "v": "V4",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V4.mp4"
+    },
+    {
+     "v": "V8",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V8.mp4"
+    },
+    {
+     "v": "V12",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V12.mp4"
+    },
+    {
+     "v": "V5",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V5.mp4"
+    }
+   ],
+   "block": [],
+   "start": "2026-11-14",
+   "lane": 9
   }
  ],
  "posted": [
@@ -853,6 +906,11 @@
    "shortcode": "DTQellPk2Is",
    "title": "LED Leisten bei Fix & Flip",
    "run": "2026-11-13-c"
+  },
+  {
+   "shortcode": "De9c4hNPOOb",
+   "title": "Übertreibs bitte nicht (Duschglas, schwarze Streben)",
+   "run": "2026-11-13d"
   }
  ],
  "skipped": [
@@ -925,6 +983,21 @@
    "shortcode": "DeHmgFKFSA1",
    "grund": "Thema Diamond-Door-Tür läuft (tuer-1500)",
    "run": "2026-11-13-c"
+  },
+  {
+   "shortcode": "DemKyv6kxOE",
+   "grund": "Thema Loft-Tür läuft als Lane",
+   "run": "2026-11-13d"
+  },
+  {
+   "shortcode": "DeweEVzDS5i",
+   "grund": "Thema Aluleiste läuft als Lane",
+   "run": "2026-11-13d"
+  },
+  {
+   "shortcode": "DerpEunDZ1Z",
+   "grund": "Thema Diamond-Door-Tür läuft (tuer-1500)",
+   "run": "2026-11-13d"
   }
  ],
  "cooldown_days": 60,
