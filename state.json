@@ -29,18 +29,6 @@
    ],
    "queue": [
     {
-     "v": "V9",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/Dax4XbSgIeF_V9.mp4"
-    },
-    {
-     "v": "V7",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/Dax4XbSgIeF_V7.mp4"
-    },
-    {
-     "v": "V10",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/Dax4XbSgIeF_V10.mp4"
-    },
-    {
      "v": "V4",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/Dax4XbSgIeF_V4.mp4"
     },
@@ -59,7 +47,10 @@
    "trial_days": [
     "2026-11-13",
     "2026-11-14",
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19"
    ]
   },
   {
@@ -74,14 +65,6 @@
     "Zwei Adern im Kabel: Alles muss neu."
    ],
    "queue": [
-    {
-     "v": "V7",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DcJbY6Fk3fb_V7.mp4"
-    },
-    {
-     "v": "V10",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DcJbY6Fk3fb_V10.mp4"
-    },
     {
      "v": "V4",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DcJbY6Fk3fb_V4.mp4"
@@ -105,7 +88,9 @@
    "trial_days": [
     "2026-11-13",
     "2026-11-14",
-    "2026-11-16"
+    "2026-11-16",
+    "2026-11-18",
+    "2026-11-19"
    ]
   },
   {
@@ -120,14 +105,6 @@
     "Die meisten tippen hier falsch."
    ],
    "queue": [
-    {
-     "v": "V9",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DYr-syhlLXQ_V9.mp4"
-    },
-    {
-     "v": "V7",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DYr-syhlLXQ_V7.mp4"
-    },
     {
      "v": "V10",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DYr-syhlLXQ_V10.mp4"
@@ -151,7 +128,9 @@
    "trial_days": [
     "2026-11-13",
     "2026-11-14",
-    "2026-11-16"
+    "2026-11-16",
+    "2026-11-18",
+    "2026-11-19"
    ]
   },
   {
@@ -166,14 +145,6 @@
     "Zu wenig Estrich: Ebenerdig geht nicht."
    ],
    "queue": [
-    {
-     "v": "V1",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaqJj5LClaJ_V1.mp4"
-    },
-    {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaqJj5LClaJ_V6.mp4"
-    },
     {
      "v": "V3",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaqJj5LClaJ_V3.mp4"
@@ -210,7 +181,11 @@
     "2026-11-16"
    ],
    "start": "2026-11-13",
-   "lane": 4
+   "lane": 4,
+   "trial_days": [
+    "2026-11-17",
+    "2026-11-19"
+   ]
   },
   {
    "content": "aluleiste",
@@ -224,14 +199,6 @@
     "Diesen Übergang siehst du bei mir nie."
    ],
    "queue": [
-    {
-     "v": "V9",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaYIF5AD-MJ_V9.mp4"
-    },
-    {
-     "v": "V7",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13b-43329172326/DaYIF5AD-MJ_V7.mp4"
-    },
     {
      "v": "V10",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaYIF5AD-MJ_V10.mp4"
@@ -259,7 +226,9 @@
    "trial_days": [
     "2026-11-13",
     "2026-11-14",
-    "2026-11-16"
+    "2026-11-16",
+    "2026-11-18",
+    "2026-11-19"
    ]
   },
   {
@@ -274,14 +243,6 @@
     "Achte bei LED-Leisten zuerst auf die Lichtfarbe."
    ],
    "queue": [
-    {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DTQellPk2Is_V6.mp4"
-    },
-    {
-     "v": "V3",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DTQellPk2Is_V3.mp4"
-    },
     {
      "v": "V9",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DTQellPk2Is_V9.mp4"
@@ -315,7 +276,9 @@
    "start": "2026-11-14",
    "lane": 6,
    "trial_days": [
-    "2026-11-14"
+    "2026-11-14",
+    "2026-11-17",
+    "2026-11-19"
    ]
   },
   {
@@ -330,14 +293,6 @@
     "Fehler: Zu viel Equipment zur Besichtigung mitnehmen."
    ],
    "queue": [
-    {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DUWAOKuCCUG_V6.mp4"
-    },
-    {
-     "v": "V3",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DUWAOKuCCUG_V3.mp4"
-    },
     {
      "v": "V7",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DUWAOKuCCUG_V7.mp4"
@@ -367,7 +322,9 @@
    "start": "2026-11-14",
    "lane": 7,
    "trial_days": [
-    "2026-11-14"
+    "2026-11-14",
+    "2026-11-17",
+    "2026-11-19"
    ]
   },
   {
@@ -382,10 +339,6 @@
     "Unterschätz nie ein Haus mit 15 Jahren Leerstand."
    ],
    "queue": [
-    {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DXpCrbvgebK_V6.mp4"
-    },
     {
      "v": "V3",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DXpCrbvgebK_V3.mp4"
@@ -423,7 +376,8 @@
    "start": "2026-11-14",
    "lane": 8,
    "trial_days": [
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-18"
    ]
   },
   {
@@ -438,10 +392,6 @@
     "Kauf kein 8-mm-Duschglas, nimm 10 mm ESG"
    ],
    "queue": [
-    {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V6.mp4"
-    },
     {
      "v": "V3",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V3.mp4"
@@ -475,7 +425,8 @@
    "start": "2026-11-14",
    "lane": 9,
    "trial_days": [
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-18"
    ]
   }
  ],
@@ -785,6 +736,159 @@
    "variant": "V3",
    "metricool_id": "427416445",
    "media": "https://static.metricool.com/planner/202611/2740762-file-8307338004107132524.mp4"
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "11:00",
+   "content": "loft-tuer",
+   "shortcode": "Dax4XbSgIeF",
+   "variant": "V9",
+   "metricool_id": "430569624",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-15646163582271788687.mp4"
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "19:00",
+   "content": "duschpodest",
+   "shortcode": "DaqJj5LClaJ",
+   "variant": "V1",
+   "metricool_id": "430569669",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-15795552906769727462.mp4"
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "20:00",
+   "content": "led-leisten",
+   "shortcode": "DTQellPk2Is",
+   "variant": "V6",
+   "metricool_id": "430569705",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-5934142373063512137.mp4"
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "21:00",
+   "content": "besichtigung-tools",
+   "shortcode": "DUWAOKuCCUG",
+   "variant": "V6",
+   "metricool_id": "430569766",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-18037582184441208857.mp4"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "11:00",
+   "content": "aluleiste",
+   "shortcode": "DaYIF5AD-MJ",
+   "variant": "V9",
+   "metricool_id": "430570205",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-11002602842181684518.mp4"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "15:00",
+   "content": "loft-tuer",
+   "shortcode": "Dax4XbSgIeF",
+   "variant": "V7",
+   "metricool_id": "430570240",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-12900570618138774884.mp4"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "18:00",
+   "content": "reihenhaus-15j",
+   "shortcode": "DXpCrbvgebK",
+   "variant": "V6",
+   "metricool_id": "430570312",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-13737386548683326097.mp4"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "19:00",
+   "content": "duschglas-streben",
+   "shortcode": "De9c4hNPOOb",
+   "variant": "V6",
+   "metricool_id": "430570385",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-5619564999248990303.mp4"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "20:00",
+   "content": "elektrik-2adern",
+   "shortcode": "DcJbY6Fk3fb",
+   "variant": "V7",
+   "metricool_id": "430570538",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-15317827342919532884.mp4"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "21:00",
+   "content": "ikea-kueche",
+   "shortcode": "DYr-syhlLXQ",
+   "variant": "V9",
+   "metricool_id": "430570611",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-5263617836248135563.mp4"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "11:00",
+   "content": "loft-tuer",
+   "shortcode": "Dax4XbSgIeF",
+   "variant": "V10",
+   "metricool_id": "430571031",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-16252131462258794107.mp4"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "15:00",
+   "content": "elektrik-2adern",
+   "shortcode": "DcJbY6Fk3fb",
+   "variant": "V10",
+   "metricool_id": "430571070",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-951626539923266209.mp4"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "17:00",
+   "content": "ikea-kueche",
+   "shortcode": "DYr-syhlLXQ",
+   "variant": "V7",
+   "metricool_id": "430571133",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-10096567213539959259.mp4"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "18:00",
+   "content": "aluleiste",
+   "shortcode": "DaYIF5AD-MJ",
+   "variant": "V7",
+   "metricool_id": "430571174",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-9402761274958538769.mp4"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "19:00",
+   "content": "duschpodest",
+   "shortcode": "DaqJj5LClaJ",
+   "variant": "V6",
+   "metricool_id": "430571249",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-578522896370975076.mp4"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "20:00",
+   "content": "led-leisten",
+   "shortcode": "DTQellPk2Is",
+   "variant": "V3",
+   "metricool_id": "430571271",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-9792406146786221311.mp4"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "21:00",
+   "content": "besichtigung-tools",
+   "shortcode": "DUWAOKuCCUG",
+   "variant": "V3",
+   "metricool_id": "430571319",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-9823885117861351309.mp4"
   }
  ],
  "results": [],
