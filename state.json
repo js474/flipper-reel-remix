@@ -1271,6 +1271,6 @@
  ],
  "cooldown_days": 60,
  "last_run": "2026-11-19",
- "last_attempt": "2026-11-19",
+ "last_attempt": "2026-11-22",
  "cadence": "alle 3 Tage (Tage 1,4,7,... des Monats, 20:41), plant MORGEN bis MORGEN+2"
 }
