@@ -41,7 +41,9 @@
     "2026-11-20",
     "2026-11-21",
     "2026-11-22"
-   ]
+   ],
+   "repost": "2026-11-29",
+   "winner": "V1"
   },
   {
    "content": "elektrik-2adern",
@@ -354,6 +356,51 @@
    "trial_days": [
     "2026-11-25",
     "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  {
+   "content": "akquise-makler",
+   "shortcode": "DfnMQV7hnQy",
+   "title": "Dein bester Akquise-Tipp für sanierungsbedürftige Wohnungen und Häuser? 🏚🔍 Das wurde ich in den Kommentaren gefragt.",
+   "hook_line": "Wie kommst du an sanierungsbedürftige Immobilien?",
+   "caption": "Dein bester Akquise-Tipp für sanierungsbedürftige Wohnungen und Häuser? 🏚🔍 Das wurde ich in den Kommentaren gefragt.\n\nDie ehrliche Antwort: Fleißarbeit 💪 Den einen Klick, nach dem die Deals reinflattern, gibt es nicht.\n\nSo gehen wir vor:\n1️⃣ Off Market direkt beim Eigentümer: Zeichen am Haus erkennen, klingeln, Flyer einwerfen, Nachbarn fragen 🔔\n2️⃣ Makler vor Ort: Rund 80 Prozent der Deals kommen wiederkehrend über eine Handvoll Makler. Beziehung pflegen, nicht nur Anfragen schicken 🤝\n3️⃣ Die eigentliche Akquise passiert in der Besichtigung. Alle W-Fragen klären, dann das Angebot gut begründet platzieren 🏠\n4️⃣ Nachfassen. Der Deal kommt meist nach fünf bis sieben Kontakten 📞\n\n👇 Kommentiere TOOLS und ich schicke dir den Link zu meinem Akquise-Bundle.\n\n#fixundflip #immobilienhandel #flipperimmo #akquise #sanierung #immobilieninvestment #kaufenrenovierenverkaufen\n\n🏚 🔜 🏠 Kaufen. Renovieren. Verkaufen.\n\n✅ Folge mir für tägliche Einblicke in meine Unternehmen, Fuck-ups, Baustellen und vieles mehr @flipper.immo",
+   "hooks": [
+    "80 % der Deals kommen über Makler.",
+    "Akquise ist Fleißarbeit, kein Klick.",
+    "Wer nicht nachfasst, verliert den Deal."
+   ],
+   "queue": [
+    {
+     "v": "V3",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V3.mp4"
+    },
+    {
+     "v": "V7",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V7.mp4"
+    },
+    {
+     "v": "V10",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V10.mp4"
+    },
+    {
+     "v": "V4",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V4.mp4"
+    },
+    {
+     "v": "V8",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V8.mp4"
+    },
+    {
+     "v": "V12",
+     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V12.mp4"
+    }
+   ],
+   "block": [],
+   "start": "2026-11-26",
+   "lane": 3,
+   "trial_days": [
     "2026-11-27",
     "2026-11-28"
    ]
@@ -1349,10 +1396,30 @@
    "variant": "V10",
    "metricool_id": "442234975",
    "media": "https://static.metricool.com/planner/202611/2740762-file-10107626586017949622.mp4"
+  },
+  {
+   "date": "2026-11-27",
+   "slot": "19:00",
+   "content": "akquise-makler",
+   "shortcode": "DfnMQV7hnQy",
+   "variant": "V1",
+   "metricool_id": "442248874",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-18219150018065824175.mp4"
+  },
+  {
+   "date": "2026-11-28",
+   "slot": "18:00",
+   "content": "akquise-makler",
+   "shortcode": "DfnMQV7hnQy",
+   "variant": "V6",
+   "metricool_id": "442249167",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-10538668561447306516.mp4"
   }
  ],
  "results": [],
- "variant_wins": {},
+ "variant_wins": {
+  "V1": 1
+ },
  "processed": [
   {
    "shortcode": "Ddo6J1QDAJN",
@@ -1525,6 +1592,11 @@
    "shortcode": "DW_1RsAAayf",
    "title": "Meine Bodenfarbe ist Parkett",
    "run": "2026-11-22a"
+  },
+  {
+   "shortcode": "DfnMQV7hnQy",
+   "title": "Dein bester Akquise-Tipp für sanierungsbedürftige Wohnungen und Häuser? 🏚🔍 Das wurde ich in den Kommentaren gefragt.",
+   "run": "2026-11-25a"
   }
  ],
  "skipped": [
@@ -1612,6 +1684,86 @@
    "shortcode": "DerpEunDZ1Z",
    "grund": "Thema Diamond-Door-Tür läuft (tuer-1500)",
    "run": "2026-11-13d"
+  },
+  {
+   "shortcode": "DeXC_ssmNHk",
+   "grund": "Musik-Reel",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "Ddji_63AAqq",
+   "grund": "Thema Boden/Parkett weiß geölt läuft als Lane parkett-weissanteil",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DfC7EnfyEJJ",
+   "grund": "Thema Diamond-Door-Tür",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DfPzBb_ploc",
+   "grund": "Thema Diamond-Door-Tür",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DfhLr8tRW5Y",
+   "grund": "Thema Diamond-Door-Tür",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DdmH6CvD_O1",
+   "grund": "Thema LED-Leisten läuft als Lane",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DfSDNGoMbsO",
+   "grund": "Thema Sockelleiste Acryl lief in den letzten 60 Tagen",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "Dbs-suvMmAE",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DfzPp9-si2h",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "Dfmdo93s0J8",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DdqxMP2sKxs",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DdBzIVkssiE",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DcyzeeTMPze",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "Dd9TRv8komO",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DfkaRCjF39p",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DdOX7ubs8jG",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-25a"
   }
  ],
  "cooldown_days": 60,
