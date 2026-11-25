@@ -108,12 +108,7 @@
     "Podest oder bodengleich: Was nimmst du?",
     "Zu wenig Estrich: Ebenerdig geht nicht."
    ],
-   "queue": [
-    {
-     "v": "V12",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13a-43324986532/DaqJj5LClaJ_V12.mp4"
-    }
-   ],
+   "queue": [],
    "block": [
     "2026-11-13",
     "2026-11-14",
@@ -130,7 +125,8 @@
     "2026-11-22",
     "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
    ]
   },
   {
@@ -172,16 +168,7 @@
     "Indirektes Licht im Bad: Lohnt sich das?",
     "Achte bei LED-Leisten zuerst auf die Lichtfarbe."
    ],
-   "queue": [
-    {
-     "v": "V12",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DTQellPk2Is_V12.mp4"
-    },
-    {
-     "v": "V5",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DTQellPk2Is_V5.mp4"
-    }
-   ],
+   "queue": [],
    "block": [],
    "start": "2026-11-14",
    "lane": 6,
@@ -193,7 +180,9 @@
     "2026-11-22",
     "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27"
    ]
   },
   {
@@ -207,16 +196,7 @@
     "Was hast du bei Besichtigungen dabei?",
     "Fehler: Zu viel Equipment zur Besichtigung mitnehmen."
    ],
-   "queue": [
-    {
-     "v": "V12",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DUWAOKuCCUG_V12.mp4"
-    },
-    {
-     "v": "V5",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DUWAOKuCCUG_V5.mp4"
-    }
-   ],
+   "queue": [],
    "block": [],
    "start": "2026-11-14",
    "lane": 7,
@@ -227,7 +207,9 @@
     "2026-11-21",
     "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27"
    ]
   },
   {
@@ -243,18 +225,6 @@
    ],
    "queue": [
     {
-     "v": "V4",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DXpCrbvgebK_V4.mp4"
-    },
-    {
-     "v": "V8",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DXpCrbvgebK_V8.mp4"
-    },
-    {
-     "v": "V12",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DXpCrbvgebK_V12.mp4"
-    },
-    {
      "v": "V5",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DXpCrbvgebK_V5.mp4"
     }
@@ -268,7 +238,10 @@
     "2026-11-20",
     "2026-11-22",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
    ]
   },
   {
@@ -282,20 +255,7 @@
     "Schwarze Streben in der Dusche: Zu viel des Guten?",
     "Kauf kein 8-mm-Duschglas, nimm 10 mm ESG"
    ],
-   "queue": [
-    {
-     "v": "V8",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V8.mp4"
-    },
-    {
-     "v": "V12",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V12.mp4"
-    },
-    {
-     "v": "V5",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13d-43495082165/De9c4hNPOOb_V5.mp4"
-    }
-   ],
+   "queue": [],
    "block": [],
    "start": "2026-11-14",
    "lane": 9,
@@ -305,7 +265,10 @@
     "2026-11-20",
     "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
    ]
   },
   {
@@ -320,18 +283,6 @@
     "Alter Sicherungskasten war viermal zu klein."
    ],
    "queue": [
-    {
-     "v": "V3",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DdCEoaUDROU_V3.mp4"
-    },
-    {
-     "v": "V7",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DdCEoaUDROU_V7.mp4"
-    },
-    {
-     "v": "V10",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DdCEoaUDROU_V10.mp4"
-    },
     {
      "v": "V4",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DdCEoaUDROU_V4.mp4"
@@ -354,7 +305,10 @@
    "lane": 1,
    "trial_days": [
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
    ]
   },
   {
@@ -369,18 +323,6 @@
     "Parkett ohne Weißanteil im Öl wird zu gelb."
    ],
    "queue": [
-    {
-     "v": "V6",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DW_1RsAAayf_V6.mp4"
-    },
-    {
-     "v": "V3",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DW_1RsAAayf_V3.mp4"
-    },
-    {
-     "v": "V9",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DW_1RsAAayf_V9.mp4"
-    },
     {
      "v": "V7",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DW_1RsAAayf_V7.mp4"
@@ -410,7 +352,10 @@
    "start": "2026-11-23",
    "lane": 2,
    "trial_days": [
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
    ]
   }
  ],
@@ -1251,6 +1196,159 @@
    "variant": "V6",
    "metricool_id": "437902954",
    "media": "https://static.metricool.com/planner/202611/2740762-file-14623466293648538095.mp4"
+  },
+  {
+   "date": "2026-11-26",
+   "slot": "11:00",
+   "content": "led-leisten",
+   "shortcode": "DTQellPk2Is",
+   "variant": "V12",
+   "metricool_id": "442233226",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-11824549518529959039.mp4"
+  },
+  {
+   "date": "2026-11-26",
+   "slot": "15:00",
+   "content": "besichtigung-tools",
+   "shortcode": "DUWAOKuCCUG",
+   "variant": "V12",
+   "metricool_id": "442233277",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-6373514941406863.mp4"
+  },
+  {
+   "date": "2026-11-26",
+   "slot": "17:00",
+   "content": "reihenhaus-15j",
+   "shortcode": "DXpCrbvgebK",
+   "variant": "V4",
+   "metricool_id": "442233350",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-4354821759129480054.mp4"
+  },
+  {
+   "date": "2026-11-26",
+   "slot": "18:00",
+   "content": "duschglas-streben",
+   "shortcode": "De9c4hNPOOb",
+   "variant": "V8",
+   "metricool_id": "442233431",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-11141840164201968543.mp4"
+  },
+  {
+   "date": "2026-11-26",
+   "slot": "19:00",
+   "content": "fliese-ark-ivory",
+   "shortcode": "DdCEoaUDROU",
+   "variant": "V3",
+   "metricool_id": "442233501",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-4614547022431949549.mp4"
+  },
+  {
+   "date": "2026-11-26",
+   "slot": "20:00",
+   "content": "parkett-weissanteil",
+   "shortcode": "DW_1RsAAayf",
+   "variant": "V6",
+   "metricool_id": "442233555",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-7460453129317151362.mp4"
+  },
+  {
+   "date": "2026-11-26",
+   "slot": "21:00",
+   "content": "duschpodest",
+   "shortcode": "DaqJj5LClaJ",
+   "variant": "V12",
+   "metricool_id": "442233626",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-13894289621004117668.mp4"
+  },
+  {
+   "date": "2026-11-27",
+   "slot": "11:00",
+   "content": "led-leisten",
+   "shortcode": "DTQellPk2Is",
+   "variant": "V5",
+   "metricool_id": "442234098",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-3050193705167388353.mp4"
+  },
+  {
+   "date": "2026-11-27",
+   "slot": "15:00",
+   "content": "besichtigung-tools",
+   "shortcode": "DUWAOKuCCUG",
+   "variant": "V5",
+   "metricool_id": "442234160",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-5506728354171764899.mp4"
+  },
+  {
+   "date": "2026-11-27",
+   "slot": "17:00",
+   "content": "reihenhaus-15j",
+   "shortcode": "DXpCrbvgebK",
+   "variant": "V8",
+   "metricool_id": "442234257",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-15313105045410929559.mp4"
+  },
+  {
+   "date": "2026-11-27",
+   "slot": "18:00",
+   "content": "duschglas-streben",
+   "shortcode": "De9c4hNPOOb",
+   "variant": "V12",
+   "metricool_id": "442234324",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-13226539100723006063.mp4"
+  },
+  {
+   "date": "2026-11-27",
+   "slot": "20:00",
+   "content": "fliese-ark-ivory",
+   "shortcode": "DdCEoaUDROU",
+   "variant": "V7",
+   "metricool_id": "442234393",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-13916213508052589379.mp4"
+  },
+  {
+   "date": "2026-11-27",
+   "slot": "21:00",
+   "content": "parkett-weissanteil",
+   "shortcode": "DW_1RsAAayf",
+   "variant": "V3",
+   "metricool_id": "442234448",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-4788172537074080359.mp4"
+  },
+  {
+   "date": "2026-11-28",
+   "slot": "11:00",
+   "content": "parkett-weissanteil",
+   "shortcode": "DW_1RsAAayf",
+   "variant": "V9",
+   "metricool_id": "442234814",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-4313716413847857671.mp4"
+  },
+  {
+   "date": "2026-11-28",
+   "slot": "15:00",
+   "content": "reihenhaus-15j",
+   "shortcode": "DXpCrbvgebK",
+   "variant": "V12",
+   "metricool_id": "442234885",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-11789335983645008552.mp4"
+  },
+  {
+   "date": "2026-11-28",
+   "slot": "17:00",
+   "content": "duschglas-streben",
+   "shortcode": "De9c4hNPOOb",
+   "variant": "V5",
+   "metricool_id": "442234934",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-10225962224641496933.mp4"
+  },
+  {
+   "date": "2026-11-28",
+   "slot": "21:00",
+   "content": "fliese-ark-ivory",
+   "shortcode": "DdCEoaUDROU",
+   "variant": "V10",
+   "metricool_id": "442234975",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-10107626586017949622.mp4"
   }
  ],
  "results": [],
