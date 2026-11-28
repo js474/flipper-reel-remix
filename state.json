@@ -225,12 +225,7 @@
     "Würdest du hier sofort einziehen?",
     "Unterschätz nie ein Haus mit 15 Jahren Leerstand."
    ],
-   "queue": [
-    {
-     "v": "V5",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-13-c-43400664923/DXpCrbvgebK_V5.mp4"
-    }
-   ],
+   "queue": [],
    "block": [],
    "start": "2026-11-14",
    "lane": 8,
@@ -243,7 +238,8 @@
     "2026-11-25",
     "2026-11-26",
     "2026-11-27",
-    "2026-11-28"
+    "2026-11-28",
+    "2026-11-29"
    ]
   },
   {
@@ -282,26 +278,9 @@
    "hooks": [
     "Diese 120x60 Fliese kostet nur 23 Euro.",
     "Würdest du diese helle Beige Fliese nehmen?",
-    "Alter Sicherungskasten war viermal zu klein."
+    "Fliese 120x60 für 23 Euro, was sagst du?"
    ],
-   "queue": [
-    {
-     "v": "V4",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DdCEoaUDROU_V4.mp4"
-    },
-    {
-     "v": "V8",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DdCEoaUDROU_V8.mp4"
-    },
-    {
-     "v": "V12",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DdCEoaUDROU_V12.mp4"
-    },
-    {
-     "v": "V5",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DdCEoaUDROU_V5.mp4"
-    }
-   ],
+   "queue": [],
    "block": [],
    "start": "2026-11-23",
    "lane": 1,
@@ -310,7 +289,10 @@
     "2026-11-25",
     "2026-11-26",
     "2026-11-27",
-    "2026-11-28"
+    "2026-11-28",
+    "2026-11-29",
+    "2026-11-30",
+    "2026-12-01"
    ]
   },
   {
@@ -325,18 +307,6 @@
     "Parkett ohne Weißanteil im Öl wird zu gelb."
    ],
    "queue": [
-    {
-     "v": "V7",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DW_1RsAAayf_V7.mp4"
-    },
-    {
-     "v": "V10",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DW_1RsAAayf_V10.mp4"
-    },
-    {
-     "v": "V4",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DW_1RsAAayf_V4.mp4"
-    },
     {
      "v": "V8",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-22a-45062710899/DW_1RsAAayf_V8.mp4"
@@ -357,7 +327,10 @@
     "2026-11-25",
     "2026-11-26",
     "2026-11-27",
-    "2026-11-28"
+    "2026-11-28",
+    "2026-11-29",
+    "2026-11-30",
+    "2026-12-01"
    ]
   },
   {
@@ -372,18 +345,6 @@
     "Wer nicht nachfasst, verliert den Deal."
    ],
    "queue": [
-    {
-     "v": "V3",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V3.mp4"
-    },
-    {
-     "v": "V7",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V7.mp4"
-    },
-    {
-     "v": "V10",
-     "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V10.mp4"
-    },
     {
      "v": "V4",
      "url": "https://github.com/js474/flipper-reel-remix/releases/download/remix-2026-11-25a-45688807500/DfnMQV7hnQy_V4.mp4"
@@ -402,7 +363,10 @@
    "lane": 3,
    "trial_days": [
     "2026-11-27",
-    "2026-11-28"
+    "2026-11-28",
+    "2026-11-29",
+    "2026-11-30",
+    "2026-12-01"
    ]
   }
  ],
@@ -1414,6 +1378,96 @@
    "variant": "V6",
    "metricool_id": "442249167",
    "media": "https://static.metricool.com/planner/202611/2740762-file-10538668561447306516.mp4"
+  },
+  {
+   "date": "2026-11-29",
+   "slot": "11:00",
+   "content": "fliese-ark-ivory",
+   "shortcode": "DdCEoaUDROU",
+   "variant": "V4",
+   "metricool_id": "445755286",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-12759934109786392657.mp4"
+  },
+  {
+   "date": "2026-11-29",
+   "slot": "15:00",
+   "content": "parkett-weissanteil",
+   "shortcode": "DW_1RsAAayf",
+   "variant": "V7",
+   "metricool_id": "445755314",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-9337659687959178183.mp4"
+  },
+  {
+   "date": "2026-11-29",
+   "slot": "17:00",
+   "content": "akquise-makler",
+   "shortcode": "DfnMQV7hnQy",
+   "variant": "V3",
+   "metricool_id": "445755351",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-16492865390227531801.mp4"
+  },
+  {
+   "date": "2026-11-29",
+   "slot": "18:00",
+   "content": "reihenhaus-15j",
+   "shortcode": "DXpCrbvgebK",
+   "variant": "V5",
+   "metricool_id": "445755394",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-1945406442952791917.mp4"
+  },
+  {
+   "date": "2026-11-30",
+   "slot": "15:00",
+   "content": "fliese-ark-ivory",
+   "shortcode": "DdCEoaUDROU",
+   "variant": "V12",
+   "metricool_id": "445755725",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-503846093315419631.mp4"
+  },
+  {
+   "date": "2026-11-30",
+   "slot": "17:00",
+   "content": "parkett-weissanteil",
+   "shortcode": "DW_1RsAAayf",
+   "variant": "V10",
+   "metricool_id": "445755749",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-14376976520358367733.mp4"
+  },
+  {
+   "date": "2026-11-30",
+   "slot": "18:00",
+   "content": "akquise-makler",
+   "shortcode": "DfnMQV7hnQy",
+   "variant": "V7",
+   "metricool_id": "445755796",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-12311291991032255203.mp4"
+  },
+  {
+   "date": "2026-12-01",
+   "slot": "17:00",
+   "content": "fliese-ark-ivory",
+   "shortcode": "DdCEoaUDROU",
+   "variant": "V5",
+   "metricool_id": "445756005",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-2225545187213645037.mp4"
+  },
+  {
+   "date": "2026-12-01",
+   "slot": "18:00",
+   "content": "parkett-weissanteil",
+   "shortcode": "DW_1RsAAayf",
+   "variant": "V4",
+   "metricool_id": "445756035",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-17422551015593303056.mp4"
+  },
+  {
+   "date": "2026-12-01",
+   "slot": "19:00",
+   "content": "akquise-makler",
+   "shortcode": "DfnMQV7hnQy",
+   "variant": "V10",
+   "metricool_id": "445756050",
+   "media": "https://static.metricool.com/planner/202611/2740762-file-10057551203637107685.mp4"
   }
  ],
  "results": [],
@@ -1764,6 +1818,71 @@
    "shortcode": "DdOX7ubs8jG",
    "grund": "kein MP4 in Metricool",
    "run": "2026-11-25a"
+  },
+  {
+   "shortcode": "DezXtEIABlp",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "Dd9gaR7D9vp",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "DfKpmBMBfvI",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "DfaG6E_KyM1",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "DeobNYsAhmX",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "DdzXYBoDIjj",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "DduDwJSAuBK",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "DfHwFglush-",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "De7MuRLvwHJ",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "DcERTrHjmIT",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "DdJy4B0j1gn",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "DeuN_ulFd89",
+   "grund": "kein MP4 in Metricool",
+   "run": "2026-11-28a"
+  },
+  {
+   "shortcode": "Ddt2MJ4iO_A",
+   "grund": "Score zu niedrig (8)",
+   "run": "2026-11-28a"
   }
  ],
  "cooldown_days": 60,
